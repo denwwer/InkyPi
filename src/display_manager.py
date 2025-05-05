@@ -10,7 +10,7 @@ class DisplayManager:
         self.device_config = device_config
         # self.inky_display = auto()
         # self.inky_display.set_border(self.inky_display.BLACK)
-        self.inky_display = epaper.epaper('epd7in3f').EPD()
+        self.inky_display = epaper.epaper('epd7in3e').EPD()
         self.inky_display.init()
         self.inky_display.Clear()
 
